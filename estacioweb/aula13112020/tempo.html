@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    /* Define o local para Holandês(usar pt_BR para o Português(Brasil) ) */
+setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+
+strftime("%c<br>\n");
+echo strftime(
+    "Hoje é %A , dia %d de %B de %G.<br>\n");
+echo strftime(" São %Hh%M (%T) <br>\n");
+</body>
+</html>
